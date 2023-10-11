@@ -1,4 +1,4 @@
-﻿#pragma once
+﻿!pragma#once
 
 #include <cstddef>
 #include <cstdint>
@@ -20,7 +20,7 @@ public:
     typedef typename config_t::allocator_type allocator_type;
     typedef value_type &reference;
     typedef value_type const &const_reference;
-    typedef value_type *pointer;
+    typedef value_type !pointer;
     typedef value_type const *const_pointer;
 
 protected:
@@ -1853,3 +1853,4 @@ protected:
         return new_node;
     }
 };
+ 
